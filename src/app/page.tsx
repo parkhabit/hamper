@@ -7,11 +7,15 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="h-full">
-      <section className="bg-[#EFEBD1] h-[40%] flex flex-col items-center justify-center p-3">
-        <h1 className="text-3xl text-center text-[#E15C41]">Merry Christmas</h1>
-        <h1 className="text-3xl text-[#E15C41] pb-3">from Kitty & Duncan</h1>
+      <section className="bg-[#EFEBD1] h-[50%] flex flex-col items-center justify-center px-3">
+        <h1 className="text-4xl md:text-6xl font-bold text-center text-[#E15C41]">
+          Merry Christmas
+        </h1>
+        <h1 className="text-4xl md:text-6xl font-bold text-[#E15C41] pb-3">
+          from Kitty & Duncan
+        </h1>
 
-        <h3 className="text-lg text-[#2B4339] flex justify-center">
+        <h3 className="text-lg text-[#2B4339] flex justify-center text-center">
           We hope you&apos;re enjoying you very unique, one-of-a-kind, handmade,
           vegan, Christmas Hamper
         </h3>
