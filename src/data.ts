@@ -4,6 +4,7 @@ export interface HamperItem {
     ingredients: string[];
     method: string[];
     servingSuggestion: string;
+    image: string;
 }
 
 const hamperItems: HamperItem[] = [
@@ -13,6 +14,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Cranberries', 'Pumpkin seeds', 'Flour', 'Butter', 'Sugar', 'Salt', 'Baking powder', 'Egg'],
         method: ['mix everything together', 'roll out', 'cut into shapes', 'bake'],
         servingSuggestion: 'Serve with vegan boursin cheese',
+        image: 'cranberryCrackers',
     },
     {
         key: '2',
@@ -20,6 +22,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Cashews', 'Garlic', 'Nutritional yeast', 'Lemon juice', 'Salt', 'Pepper'],
         method: ['blend everything together', 'refrigerate'],
         servingSuggestion: 'Serve with crackers, or some soughdough bread',
+        image: 'boursin',
     },
     {
         key: '3',
@@ -27,6 +30,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Flour', 'Bicarbonate of soda', 'Ground ginger', 'Butter', 'Sugar', 'Golden syrup'],
         method: ['mix everything together', 'roll into balls', 'bake'],
         servingSuggestion: 'Serve with a cup of tea',
+        image: 'biscuits',
     }, 
     {
         key: '4',
@@ -34,6 +38,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Carrots', 'Swede', 'Onions', 'Apples', 'Dates', 'Prunes', 'Tomatoes', 'Vinegar', 'Sugar', 'Salt', 'Spices'],
         method: ['chop everything', 'boil together', 'jar'],
         servingSuggestion: 'Serve with a ploughman\'s sarnie',
+        image: 'pickle',
     },
     {
         key: '5',
@@ -41,6 +46,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Rhubarb', 'Sugar', 'Lemon juice', 'Chilli'],
         method: ['cook everything together', 'jar'],
         servingSuggestion: 'Pairs well with a cheese board',
+        image: 'chiliJam',
     },
     {
         key: '6',
@@ -48,6 +54,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Blueberries', 'Sugar', 'Lemon juice', 'Thyme'],
         method: ['cook everything together', 'jar'],
         servingSuggestion: 'Serve with scones and cream',
+        image: 'jam',
     },
     {
         key: '7',
@@ -55,6 +62,7 @@ const hamperItems: HamperItem[] = [
         ingredients: ['Flour', 'Butter', 'Black sesame seeds', 'Salt', 'Baking powder', 'Egg'],
         method: ['mix everything together', 'roll out', 'cut into shapes', 'bake'],
         servingSuggestion: 'Serve with vegan boursin cheese',
+        image: 'charcoalCrackers',
     }
 ]
 
