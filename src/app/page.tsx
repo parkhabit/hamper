@@ -65,7 +65,10 @@ export default function Home() {
                 <p className="text-[#EFEBD1] pt-8">Want to make it yourself?</p>
                 <Link
                   className="underline text-[#EFEBD1]"
-                  href={{ pathname: "/hamper-item", query: { key: item.key } }}
+                  href={{
+                    pathname: "/hamper-item",
+                    query: { key: item.key },
+                  }}
                 >
                   Check out the recipe
                 </Link>
