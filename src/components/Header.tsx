@@ -1,12 +1,17 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import hamperItems, { HamperItem } from "../data";
 import Link from "next/link";
 import Image from "next/image";
 import menuIcon from "../../public/menu.svg";
 
-const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const Header = ({
+  menuOpen,
+  setMenuOpen,
+}: {
+  menuOpen: boolean;
+  setMenuOpen: React.Dispatch<React.SetStateAction<boolean>>;
+}) => {
   return (
     <header className="bg-[#E15C41] flex h-14 w-full items-center">
       <div className="flex justify-between w-[50%] px-2">
@@ -25,6 +30,7 @@ const Header = () => {
             key={i.title}
             href={{ pathname: "/hamper-item", query: { key: i.key } }}
             className="text-sm text-[#EFEBD1] hover:text-[#2B4339] pt-2 pl-1 pb-1"
+            onClick={() => setMenuOpen(false)}
           >
             {i.title}
           </Link>
