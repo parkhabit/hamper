@@ -11,7 +11,7 @@ const hamperItems: HamperItem[] = [
     {
         key: '1',
         title: 'Cranberry and pumpkin seed crackers',
-        ingredients: ['Cranberries', 'Pumpkin seeds', 'Flour', 'Butter', 'Sugar', 'Salt', 'Baking powder', 'Egg'],
+        ingredients: ['Cranberries', 'Pumpkin seeds', 'Flour', 'Butter', 'Sugar', 'Salt', 'Baking powder'],
         method: ['mix everything together', 'roll out', 'cut into shapes', 'bake'],
         servingSuggestion: 'Serve with vegan boursin cheese',
         image: 'cranberryCrackers',
@@ -59,7 +59,7 @@ const hamperItems: HamperItem[] = [
     {
         key: '7',
         title: 'Black charcoal and sesame crackers',
-        ingredients: ['Flour', 'Butter', 'Black sesame seeds', 'Salt', 'Baking powder', 'Egg'],
+        ingredients: ['Flour', 'Butter', 'Black sesame seeds', 'Salt', 'Baking powder'],
         method: ['mix everything together', 'roll out', 'cut into shapes', 'bake'],
         servingSuggestion: 'Serve with vegan boursin cheese',
         image: 'charcoalCrackers',
